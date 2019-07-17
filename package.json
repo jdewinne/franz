@@ -26,7 +26,9 @@
     "reformat-files": "./node_modules/.bin/prettier --ignore-path .eslintignore --write --require-pragma \"**/*.{js,jsx,scss}\"",
     "packages": "npx lerna publish --no-git-tag-version",
     "uidev": "cd uidev && webpack-dev-server",
-    "postinstall": "npx lerna run prepare"
+    "postinstall": "npx lerna run prepare",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "Stefan Malzner <stefan@adlk.io>",
@@ -53,7 +55,7 @@
     "fs-extra": "7.0.1",
     "hex-to-rgba": "1.0.2",
     "jsonwebtoken": "^8.0.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.12",
     "mdi": "^1.9.33",
     "mime-types": "2.1.21",
     "mobx": "5.7.0",
@@ -82,7 +84,8 @@
     "semver": "^5.4.1",
     "smoothscroll-polyfill": "^0.3.4",
     "tar": "^4.0.2",
-    "uuid": "^3.0.1"
+    "uuid": "^3.0.1",
+    "snyk": "^1.193.2"
   },
   "devDependencies": {
     "@adlk/misty": "^0.1.1",
@@ -161,5 +164,6 @@
     "hooks": {
       "pre-push": "npm run lint && npm run reformat-files && npm run manage-translations"
     }
-  }
+  },
+  "snyk": true
 }
