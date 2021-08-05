@@ -81,7 +81,7 @@
     "route-parser": "^0.0.5",
     "semver": "^5.4.1",
     "smoothscroll-polyfill": "^0.3.4",
-    "tar": "^4.0.2",
+    "tar": "^6.1.4",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
