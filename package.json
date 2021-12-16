@@ -48,7 +48,7 @@
     "electron-hunspell": "0.1.1",
     "electron-is-dev": "1.0.1",
     "electron-react-titlebar": "0.8.1",
-    "electron-updater": "4.0.6",
+    "electron-updater": "4.3.1",
     "electron-window-state": "5.0.3",
     "fs-extra": "7.0.1",
     "hex-to-rgba": "1.0.2",
