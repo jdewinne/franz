@@ -53,7 +53,7 @@
     "fs-extra": "7.0.1",
     "hex-to-rgba": "1.0.2",
     "jsonwebtoken": "^8.0.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.23",
     "mdi": "^1.9.33",
     "mime-types": "2.1.21",
     "mobx": "5.7.0",
@@ -81,7 +81,7 @@
     "route-parser": "^0.0.5",
     "semver": "^5.4.1",
     "smoothscroll-polyfill": "^0.3.4",
-    "tar": "^4.0.2",
+    "tar": "^7.5.7",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
